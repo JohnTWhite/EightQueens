@@ -12,6 +12,8 @@
 		E4B51A6B1D16496500E714A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B51A691D16496500E714A0 /* Main.storyboard */; };
 		E4B51A6D1D16496500E714A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B51A6C1D16496500E714A0 /* Assets.xcassets */; };
 		E4B51A701D16496500E714A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B51A6E1D16496500E714A0 /* LaunchScreen.storyboard */; };
+		E4B51A781D16535C00E714A0 /* Queen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B51A771D16535C00E714A0 /* Queen.swift */; };
+		E4B51A7A1D16537400E714A0 /* EightQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B51A791D16537400E714A0 /* EightQueens.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E4B51A6C1D16496500E714A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4B51A6F1D16496500E714A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4B51A711D16496500E714A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4B51A771D16535C00E714A0 /* Queen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queen.swift; sourceTree = "<group>"; };
+		E4B51A791D16537400E714A0 /* EightQueens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EightQueens.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				E4B51A651D16496500E714A0 /* AppDelegate.swift */,
 				E4B51A671D16496500E714A0 /* ViewController.swift */,
 				E4B51A691D16496500E714A0 /* Main.storyboard */,
+				E4B51A771D16535C00E714A0 /* Queen.swift */,
+				E4B51A791D16537400E714A0 /* EightQueens.swift */,
 				E4B51A6C1D16496500E714A0 /* Assets.xcassets */,
 				E4B51A6E1D16496500E714A0 /* LaunchScreen.storyboard */,
 				E4B51A711D16496500E714A0 /* Info.plist */,
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					E4B51A611D16496500E714A0 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3X4RE9DSE3;
 					};
 				};
 			};
@@ -135,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4B51A781D16535C00E714A0 /* Queen.swift in Sources */,
 				E4B51A681D16496500E714A0 /* ViewController.swift in Sources */,
+				E4B51A7A1D16537400E714A0 /* EightQueens.swift in Sources */,
 				E4B51A661D16496500E714A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,10 +260,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = EightQueens/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.twostupidkids.EightQueens;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twostupidkids.EightQueensAgain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -262,10 +274,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = EightQueens/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.twostupidkids.EightQueens;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twostupidkids.EightQueensAgain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

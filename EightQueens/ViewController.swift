@@ -10,14 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var ResultsOut: UITextView!
+    
+    @IBAction func Commence(sender: AnyObject) {
+    }
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+        let test = EightQueens()
+        ResultsOut.text = test
+        }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 
