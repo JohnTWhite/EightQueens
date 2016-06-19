@@ -15,8 +15,8 @@ class ViewController: UIViewController {
     //Calculate our queens positions and update results text.
     @IBAction func calculate(sender: UIButton) {
         
-        let test = EightQueens()
-        ResultsOut.text = test
+        let Queens = EightQueens()
+        ResultsOut.text = Queens
         
     }
     
