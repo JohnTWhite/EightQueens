@@ -12,14 +12,18 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var ResultsOut: UITextView!
     
-    @IBAction func Commence(sender: AnyObject) {
+    //Calculate our queens positions and update results text.
+    @IBAction func calculate(sender: UIButton) {
+        
+        let test = EightQueens()
+        ResultsOut.text = test
+        
     }
-   
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let test = EightQueens()
-        ResultsOut.text = test
+
         }
 
     override func didReceiveMemoryWarning() {

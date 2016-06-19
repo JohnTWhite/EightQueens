@@ -62,28 +62,29 @@ func EightQueens ()-> String{
     
     func printAnswer() ->String{
         
-        var results2 = ""
+        var Result_Instance = ""
         
-        results2 = results2 + "Answer: \(solutionsFound) "
-        results2 = results2 + ("\n")
+        Result_Instance = Result_Instance + "Answer: \(solutionsFound) "
+        Result_Instance = Result_Instance + ("\n")
         
         // go backwards to print from top down
         for currentRow in Array((0...7).reverse()) {
             // print row number (use chess numbering)
-            results2 = results2 + "\(currentRow+1) "
+            Result_Instance = Result_Instance + "\(currentRow+1) "
             for currentColumn in 0...7 {
                 if (myQueens[currentRow].column == currentColumn)
                 {
-                    results2 = results2 + ("👑")
+                    Result_Instance = Result_Instance + ("👑")
                 } else {
-                    results2 = results2 + (" x ")
+                    Result_Instance = Result_Instance + (" x ")
                 }
             }
-            results2 = results2 + ("\n")
+            Result_Instance = Result_Instance + ("\n")
         }
-        results2 = results2 + ("  A  B  C  D  E  F  G  H  \n")
-        results2 = results2 + ("\n")
-        return results2
+        Result_Instance = Result_Instance + ("  A  B  C  D  E  F  G  H  \n")
+        Result_Instance = Result_Instance + ("\n")
+        Result_Instance = Result_Instance + ("Positions checked: \(positionsChecked) \n \n")
+        return Result_Instance
     }
     
     // Begin with the first Queen on row 0

@@ -13,7 +13,7 @@
 		E4B51A6D1D16496500E714A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B51A6C1D16496500E714A0 /* Assets.xcassets */; };
 		E4B51A701D16496500E714A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B51A6E1D16496500E714A0 /* LaunchScreen.storyboard */; };
 		E4B51A781D16535C00E714A0 /* Queen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B51A771D16535C00E714A0 /* Queen.swift */; };
-		E4B51A7A1D16537400E714A0 /* EightQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B51A791D16537400E714A0 /* EightQueens.swift */; };
+		E4B51A7A1D16537400E714A0 /* EightQueensController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B51A791D16537400E714A0 /* EightQueensController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		E4B51A6F1D16496500E714A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4B51A711D16496500E714A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4B51A771D16535C00E714A0 /* Queen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queen.swift; sourceTree = "<group>"; };
-		E4B51A791D16537400E714A0 /* EightQueens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EightQueens.swift; sourceTree = "<group>"; };
+		E4B51A791D16537400E714A0 /* EightQueensController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EightQueensController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				E4B51A671D16496500E714A0 /* ViewController.swift */,
 				E4B51A691D16496500E714A0 /* Main.storyboard */,
 				E4B51A771D16535C00E714A0 /* Queen.swift */,
-				E4B51A791D16537400E714A0 /* EightQueens.swift */,
+				E4B51A791D16537400E714A0 /* EightQueensController.swift */,
 				E4B51A6C1D16496500E714A0 /* Assets.xcassets */,
 				E4B51A6E1D16496500E714A0 /* LaunchScreen.storyboard */,
 				E4B51A711D16496500E714A0 /* Info.plist */,
@@ -144,7 +144,7 @@
 			files = (
 				E4B51A781D16535C00E714A0 /* Queen.swift in Sources */,
 				E4B51A681D16496500E714A0 /* ViewController.swift in Sources */,
-				E4B51A7A1D16537400E714A0 /* EightQueens.swift in Sources */,
+				E4B51A7A1D16537400E714A0 /* EightQueensController.swift in Sources */,
 				E4B51A661D16496500E714A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
