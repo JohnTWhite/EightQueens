@@ -1,5 +1,7 @@
 # EightQueens
 
+xxxxxxxxxxXxxxxxxxxxxXxxxxxxxxxxxxxXxxxxxxxxX
+
 The eight queens problem solved using Swift.
 
 This question asks how many positions on an 8x8 chess board can 8 queens
@@ -20,7 +22,12 @@ That ultimate result is returned into out UITextView. The result is only
 calculated when the user Touches Up Inside our UIButton. Before that
 our UITextView briefly describes the problem it is solving.
 
+xxxxxxxxxxXxxxxxxxxxxXxxxxxxxxxxxxxXxxxxxxxxX
+
 Refrences to the Eight Queens Problem:
 
 https://www.youtube.com/watch?v=jPcBU0Z2Hj8
 https://en.wikipedia.org/wiki/Eight_queens_puzzle
+
+
+xxxxxxxxxxXxxxxxxxxxxXxxxxxxxxxxxxxXxxxxxxxxX
